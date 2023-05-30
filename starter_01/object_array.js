@@ -19,9 +19,11 @@ export function objectToArrayKeys() {
 export function objectToArrayKeys2 () {
   const obj = {
     name: 'Marie',
-    age: 23
+    age: 23,
+    
   }
-  return []
+  return Object.entries(obj).flat();
+  // return ([Object.keys(obj[0]), obj.name, Object.keys(obj[1]), obj.age])
 }
 
 export function pushInArray () {
