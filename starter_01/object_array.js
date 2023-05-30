@@ -16,9 +16,7 @@ export function objectToArrayKeys () {
     name: 'Marie',
     age: 23
   }
-  return [
-    "name","age"
-  ]
+  return Object.keys(obj)
 }
 
 export function objectToArrayKeys2 () {

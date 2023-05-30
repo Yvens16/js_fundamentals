@@ -18,7 +18,7 @@ describe('First batch', () => {
       expect.objectContaining({ name: 'Marie', age: 23 })
     )
   })
-  it('Ça doit renvoyer un tableau du type [clé, clé]', () => {
+  it.only('Ça doit renvoyer un tableau du type [clé, clé]', () => {
     expect(objectToArrayKeys()).toEqual(['name', 'age'])
   })
 
