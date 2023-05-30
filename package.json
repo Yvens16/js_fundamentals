@@ -1,0 +1,17 @@
+{
+  "name": "fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "Yvens Belaston",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.5.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.4"
+  }
+}
