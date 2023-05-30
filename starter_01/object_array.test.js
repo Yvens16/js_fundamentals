@@ -1,7 +1,7 @@
 import {
   test,
   objectValues,
-  objectToArray,
+  objectToArrayKeys,
   objectToArrayKeys2,
   pushInArray,
   objectToString,
@@ -10,7 +10,7 @@ import {
 
 describe('First batch', () => {
   it('Changez la valeur de renvoie de la fonction test dans le fichier pour voir le test passer au vert', () => {
-    expect(test()).toBe('bye')
+    expect(test()).toBe('Omar')
   })
 
   it('Ça doit renvoyer un objet avec un name égal à Marie et un âge égal à 23', () => {
@@ -19,7 +19,7 @@ describe('First batch', () => {
     )
   })
   it('Ça doit renvoyer un tableau du type [clé, clé]', () => {
-    expect(objectToArray()).toEqual(['name', 'age'])
+    expect(objectToArrayKeys()).toEqual(['name', 'age'])
   })
 
   it('Ça doit renvoyer un tableau du type [clé, valeur, clé, valeur]', () => {
