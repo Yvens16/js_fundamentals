@@ -1,19 +1,19 @@
 export function test () {
   // Pour tester le tests
-  return 'hello';
+  return 'bye';
 }
 
 export function objectValues () {
-  const obj = {}
+  const obj = {name: 'Marie', age: 23}
   return obj
 }
 
-export function objectToArrayKeys () {
+export function objectToArrayKeys() {
   const obj = {
     name: 'Marie',
     age: 23
-  }
-  return []
+  };
+  return Object.keys(obj);
 }
 
 export function objectToArrayKeys2 () {
@@ -25,7 +25,7 @@ export function objectToArrayKeys2 () {
 }
 
 export function pushInArray () {
-  const arr = [1, 2, 3]
+  const arr = [1, 2, 3, 4]
   return arr
 }
 
@@ -35,12 +35,12 @@ export function objectToString () {
     name: 'Marie',
     age: 23
   }
-  return "Je m'appelle [name] et j'ai [age] ans"
+  return `Je m'appelle ${obj.name } et j'ai ${obj.age} ans`
 }
 
 
 export function arrayToString () {
   // Il faut utiliser les éléments du tableau ici et les template string
   const arr = ["Marie", 23];
-  return "Je m'appelle [name] et j'ai [age] ans"
+  return `Je m'appelle ${arr[0]} et j'ai ${arr[1]} ans`
 }
