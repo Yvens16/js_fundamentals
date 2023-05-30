@@ -1,7 +1,7 @@
 import {
   test,
   objectValues,
-  objectToArray,
+  objectToArrayKeys,
   objectToArrayKeys2,
   pushInArray,
   objectToString,
@@ -18,8 +18,8 @@ describe('First batch', () => {
       expect.objectContaining({ name: 'Marie', age: 23 })
     )
   })
-  it('Ça doit renvoyer un tableau du type [clé, clé]', () => {
-    expect(objectToArray()).toEqual(['name', 'age'])
+  it.only('Ça doit renvoyer un tableau du type [clé, clé]', () => {
+    expect(objectToArrayKeys()).toEqual(['name', 'age'])
   })
 
   it('Ça doit renvoyer un tableau du type [clé, valeur, clé, valeur]', () => {
