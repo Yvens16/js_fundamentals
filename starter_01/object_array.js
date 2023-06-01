@@ -39,12 +39,12 @@ export function objectToString () {
     name: 'Marie',
     age: 23
   }
-  return "Je m'appelle  et j'ai  ans"
+  return "Je m'appelle ${obj.name} et j'ai ${obj.age} ans"
 }
 
 
 export function arrayToString () {
   // Il faut utiliser les éléments du tableau ici et les template string
   const arr = ["Marie", 23];
-  return "Je m'appelle  et j'ai  ans"
+  return "Je m'appelle ${arr[0]} et j'ai ${arr[arr.length - 1]} ans"
 }
