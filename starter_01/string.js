@@ -1,25 +1,25 @@
 export function firstLetterUppercase(word) {
-  return word;
+  return word[0].toUpperCase() + word.substr(1);
 }
 
 
 export function concatWords(word1, word2) {
   // example: word1 = hello, word2 = world => helloworld
-  return "";
+  return word1.concat(word2);
 }
 
 export function findFirstIndexOfLetter(word, letter) {
-  return 0;
+  return word.indexOf(letter);
 }
 
 export function replaceCharacter(word, letterToReplace, replacement="w") {
-  return "";
+  return word.replaceAll(letterToReplace, replacement);
 }
 
 export function sentenceToArrayOfWords(sentence) {
-  return [];
+  return sentence.split(' ');
 }
 
 export function countWords(sentence) {
-  return 0;
+  return sentence.split(' ').length;
 }
