@@ -5,9 +5,8 @@ import {
   objectToArrayKeys2,
   pushInArray,
   objectToString,
-  arrayToString,
-} from './object_array';
-
+  arrayToString
+} from './object_array'
 
 describe('First batch', () => {
   it('Changez la valeur de renvoie de la fonction test dans le fichier pour voir le test passer au vert', () => {
@@ -23,7 +22,7 @@ describe('First batch', () => {
     expect(objectToArrayKeys()).toEqual(['name', 'age'])
   })
 
-  it.only('Ça doit renvoyer un tableau du type [clé, valeur, clé, valeur]', () => {
+  it('Ça doit renvoyer un tableau du type [clé, valeur, clé, valeur]', () => {
     console.log('objectToArrayKeys2():', objectToArrayKeys2())
     expect(objectToArrayKeys2()).toEqual(['name', 'Marie', 'age', 23])
   })
