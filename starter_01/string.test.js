@@ -53,7 +53,7 @@ describe('String tests', () => {
     expect(sentenceToArrayOfWords(sentence)).toStrictEqual(["Bonjour", "à", "tous"]);
   });
 
-  it("Ça doit compter le nombre de mots dans la phrase", () => {
+  it.only("Ça doit compter le nombre de mots dans la phrase", () => {
     const sentence = "Bonjour Marcos";
     expect(countWords(sentence)).toBe(2);
   })

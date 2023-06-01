@@ -26,9 +26,8 @@ export function objectToArrayKeys2 () {
   }
   const obj2 = Object.entries(obj);
   console.log(obj2);
-  console.log(obj2.toString);
-
-  // return [obj.]
+  console.log(obj2.flat());
+  return obj2.flat()
 }
 
 export function pushInArray () {
