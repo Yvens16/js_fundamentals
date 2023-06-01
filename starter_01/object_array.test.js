@@ -1,12 +1,11 @@
 import {
   test,
   objectValues,
-  objectToArray,
+  objectToArrayKeys,
   objectToArrayKeys2,
   pushInArray,
   objectToString,
-  arrayToString,
-  objectToArrayKeys
+  arrayToString
 } from './object_array'
 
 describe('First batch', () => {
