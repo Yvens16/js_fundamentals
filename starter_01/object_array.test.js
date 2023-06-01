@@ -23,7 +23,7 @@ describe('First batch', () => {
     expect(objectToArrayKeys()).toEqual(['name', 'age'])
   })
 
-  it.only('Ça doit renvoyer un tableau du type [clé, valeur, clé, valeur]', () => {
+  it('Ça doit renvoyer un tableau du type [clé, valeur, clé, valeur]', () => {
     console.log('objectToArrayKeys2():', objectToArrayKeys2())
     expect(objectToArrayKeys2()).toEqual(['name', 'Marie', 'age', 23])
   })
