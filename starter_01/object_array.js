@@ -1,5 +1,6 @@
 export function test () {
   // Pour tester le tests
+
   return 'bye';
 }
 
