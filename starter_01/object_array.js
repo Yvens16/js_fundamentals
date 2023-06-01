@@ -1,11 +1,13 @@
 export function test () {
   // Pour tester le tests
+  console.log("Yvens @@@@@@@@@@@@@@@@@@@@@@")
   return 'hello';
 }
 
 export function objectValues () {
-  const obj = {}
-  return obj
+  const obj = {};
+
+  return obj;
 }
 
 export function objectToArrayKeys () {
