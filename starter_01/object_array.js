@@ -1,5 +1,6 @@
 export function test () {
   // Pour tester le tests
+
   return 'bye';
 }
 
@@ -9,6 +10,14 @@ export function objectValues () {
     age : 23
   }
   return obj
+  console.log("Yvens @@@@@@@@@@@@@@@@@@@@@@")
+  return 'hello';
+}
+
+export function objectValues () {
+  const obj = {};
+
+  return obj;
 }
 
 export function objectToArrayKeys () {
