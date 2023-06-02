@@ -1,10 +1,13 @@
 export function test () {
   // Pour tester le tests
-  return 'hello';
+  return 'bye';
 }
 
 export function objectValues () {
-  const obj = {}
+  const obj = {
+    name: 'Marie',
+    age: 23
+  }
   return obj
 }
 
