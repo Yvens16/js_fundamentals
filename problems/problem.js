@@ -1,11 +1,21 @@
 export function sumArray (array) {
-  return []
-}
+      return array.map((num, index) => {
+      if (index === 0) {
+        return num;
+      } else {
+        return num + array[index - 1];
+      }
+    });
+  }
+ 
 
 export function numberOfProperties (object) {
-  return []
+
+  return Object.values(object).length;
 }
 
 export function stringReversal (string) {
-  return ''
+  
+  return string.split("").reverse().join("");
+ 
 }

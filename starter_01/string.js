@@ -22,5 +22,5 @@ export function sentenceToArrayOfWords(sentence) {
 }
 
 export function countWords(sentence) {
-  return sentence.split(' ').length;
+  return sentence.split(" ").length;
 }
