@@ -5,8 +5,9 @@ import {
   objectToArrayKeys2,
   pushInArray,
   objectToString,
-  arrayToString
-} from './object_array'
+  arrayToString,
+} from './object_array';
+
 
 describe('First batch', () => {
   it('Changez la valeur de renvoie de la fonction test dans le fichier pour voir le test passer au vert', () => {

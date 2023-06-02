@@ -1,11 +1,18 @@
 export function test () {
   // Pour tester le tests
+  console.log("Yvens @@@@@@@@@@@@@@@@@@@@@@")
   return 'hello';
 }
 
 export function objectValues () {
+<<<<<<< HEAD
   const obj = { name: 'Marie', age: 23}
   return obj     
+=======
+  const obj = {};
+
+  return obj;
+>>>>>>> fbd2bea9f8e01f65efaf0fda262ed8f7ace2aefa
 }
 
 export function objectToArrayKeys () {
