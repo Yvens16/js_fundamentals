@@ -6,6 +6,14 @@ export function test () {
 export function objectValues () {
   const obj = {"name": "Marie", "age": "23"}
   return obj
+
+  return 'hello';
+}
+
+export function objectValues () {
+  const obj = {};
+
+  return obj;
 }
 
 export function objectToArrayKeys () {
