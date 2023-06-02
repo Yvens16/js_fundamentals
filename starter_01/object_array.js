@@ -25,7 +25,7 @@ export function objectToArrayKeys2 () {
     age: 23
   }
   
-  return ["name",obj.name,"age",obj.age]
+  return [Object.keys(obj)[0],obj.name,Object.keys(obj)[1],obj.age]
 }
 
 export function pushInArray () {
