@@ -1,6 +1,7 @@
 export function test () {
   // Pour tester le tests
-  return 'hello';
+  console.log("Yvens @@@@@@@@@@@@@@@@@@@@@@")
+  return 'bye';
 }
 
 export function objectValues () {
