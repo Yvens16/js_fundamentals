@@ -1,6 +1,6 @@
 export function firstLetterUppercase(word) {
 
-  return word.charAt(0).toUpperCase() + word.slice(1);
+  return word[0].toUpperCase() + word.slice(1).toLowerCase();
 }
 
 
@@ -14,7 +14,7 @@ export function findFirstIndexOfLetter(word, letter) {
 }
 
 export function replaceCharacter(word, letterToReplace, replacement="w") {
-  return word.replace(new RegExp(letterToReplace, 'gi'), replacement);
+  return word.replaceAll(letterToReplace, replacement);
 }
 
 export function sentenceToArrayOfWords(sentence) {
