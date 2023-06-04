@@ -12,7 +12,7 @@ export function objectValues () {
   return obj
 }
 
-export function objectToArray () {
+export function objectToArrayKeys () {
   const obj = {
     name: 'Marie',
     age: 23
@@ -47,5 +47,5 @@ export function objectToString () {
 export function arrayToString () {
   // Il faut utiliser les éléments du tableau ici et les template string
   const arr = ["Marie", 23];
-  return "Je m'appelle ${arr[0]} et j'ai ${arr[arr.length - 1]} ans"
+  return "Je m'appelle ${arr[0]} et j'ai ${arr[arr.length -1]} ans"
 }

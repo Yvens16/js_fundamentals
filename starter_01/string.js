@@ -1,25 +1,28 @@
 export function firstLetterUppercase(word) {
-  return word;
+  return word.charAt(0).toUpperCase() + word.slice(1);
+  console.log(word.charAt(0).toUpperCase() + word.slice(1));
 }
 
 
 export function concatWords(word1, word2) {
+  const word3 = word1 + word2;
   // example: word1 = hello, word2 = world => helloworld
-  return "";
+  return word3;
 }
 
 export function findFirstIndexOfLetter(word, letter) {
-  return 0;
+  return word.indexOf(letter);
 }
 
 export function replaceCharacter(word, letterToReplace, replacement="w") {
-  return "";
+  return word.replace(letterToReplace, replacement="w");
+;
 }
 
 export function sentenceToArrayOfWords(sentence) {
-  return [];
+  return sentence.split(" ");
 }
 
 export function countWords(sentence) {
-  return 0;
+  return sentence.split(" ").length;
 }

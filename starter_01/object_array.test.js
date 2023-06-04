@@ -28,14 +28,14 @@ describe('First batch', () => {
     expect(objectToArrayKeys2()).toEqual(['name', 'Marie', 'age', 23])
   })
 
-  it('Ça doit renvoyer le tableau [1,2,3,4]', () => {
+  it.only('Ça doit renvoyer le tableau [1,2,3,4]', () => {
     expect(pushInArray()).toEqual([1, 2, 3, 4])
   })
   it('Ça doit renvoyer le tableau string compléter', () => {
     expect(objectToString()).toEqual("Je m'appelle Marie et j'ai 23 ans")
   })
 
-  it('Ça doit renvoyer le tableau string compléter avec les éléments du tableau', () => {
+  it.only('Ça doit renvoyer le tableau string compléter avec les éléments du tableau', () => {
     expect(arrayToString()).toEqual("Je m'appelle Marie et j'ai 23 ans")
   })
 })
