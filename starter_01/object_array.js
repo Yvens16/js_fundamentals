@@ -8,7 +8,7 @@ export function objectValues () {
     name: 'Marie',
     age: 23
   }
-  return obj
+  return obj;
 }
 
 export function objectToArrayKeys () {
